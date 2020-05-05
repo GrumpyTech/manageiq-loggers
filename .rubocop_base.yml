@@ -1,5 +1,6 @@
 require:
   - rubocop-rails
+  - rubocop-performance
 
 AllCops:
   NewCops: disable
@@ -51,6 +52,8 @@ Naming/MethodParameterName:
     - vm
     - dc
 Naming/RescuedExceptionsVariableName:
+  Enabled: false
+Performance/Casecmp:
   Enabled: false
 Rails:
   Enabled: true
