@@ -1,5 +1,3 @@
-require: rubocop-performance
-
 AllCops:
   Exclude:
     - spec/manageiq/**/*
@@ -44,7 +42,7 @@ Naming/UncommunicativeMethodParamName:
   AllowedNames:
     - vm
     - dc
-Performance/Casecmp:
+Naming/RescuedExceptionsVariableName:
   Enabled: false
 Rails:
   Enabled: true
